@@ -1,7 +1,6 @@
 import inquirer from "inquirer";
 import fs, { read, readFileSync } from "fs";
 import generateReadme from "./assets/js/template.js";
-import Choice from "inquirer/lib/objects/choice.js";
 
 const newReadme = () => {
   return inquirer
@@ -81,6 +80,26 @@ const newReadme = () => {
           "WTFPL",
           "Zlib",
         ],
+      },
+      {
+        type: "input",
+        name: "guideline",
+        message: "Enter a guideline:",
+      },
+      {
+        type: "input",
+        name: "test",
+        message: "Enter your Test instructions",
+      },
+      {
+        type: "input",
+        name: "username",
+        message: "Enter your GitHub username to link to your GitHub account.",
+      },
+      {
+        type: "input",
+        name: "email",
+        message: "Enter your E-Mail address to have users contact you.",
       },
     ])
     .then((newReadmeData) => {
@@ -189,33 +208,10 @@ const newReadme = () => {
     });
 };
 
-const readmeTwo = (readmeOne) => {
-  if (!readmeOne.addedGuideline) {
-    readmeOne.addedGuideline = [];
-  }
-
-  return inquirer
-    .prompt([
-      {
-        type: "input",
-        name: "guideline",
-        message: "Enter a guideline:",
-      },
-      {
-        type: "confirm",
-        name: "addGuideline",
-        message: "Add another guideline?",
-        default: false,
-      },
-    ])
-    .then((readmeTwoData) => {
-      readmeOne.addedGuideline.push(readmeTwoData.guideline);
-      if (readmeTwoData.addGuideline) {
-        return readmeTwo(readmeOne);
-      } else {
-        return readmeOne;
-      }
-    });
-};
-
-newReadme().then(readmeTwo).then(generateReadme);
+newReadme().then((readmeObj) => {
+  const readmeTemplate = generateReadme(readmeObj);
+  fs.writeFile("README.md", readmeTemplate, (err) => {
+    if (err) throw err;
+    console.log("Your README has been generated!");
+  });
+});
