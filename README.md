@@ -1,51 +1,49 @@
 #README Generator [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
-  ##Description
+##Description
 
-  I created this application to help busy developers quickly make readme's without having to take too much time from their coding duties
+I created this application to help busy developers quickly make readme's without having to take too much time from their coding duties
 
-  ##Table of Contents
+##Table of Contents
 
-  - [Installation](#Installation)
+- [Installation](#Installation)
 
-  - [Usage](#Usage)
+- [Usage](#Usage)
 
-  - [License](#License)
+- [License](#License)
 
-  - [Contributing](#Contributing)
+- [Contributing](#Contributing)
 
-  - [Tests](#Tests)
+- [Tests](#Tests)
 
-  - [Questions](#Questions)
+- [Questions](#Questions)
 
-  ##Installation
+##Installation
 
-  Open a CLI and navigate to the application directory and type: npm install inquirer
+Open a CLI and navigate to the application directory and type: npm install inquirer
 
-  ##Usage
+##Usage
 
-  from a CLI in the application directory type: node index.js. Then follow the onscreen prompts
+from a CLI in the application directory type: node index.js. Then follow the onscreen prompts
 
-  ##License
+##License
 
-  This application is covered by : ISC
+This application is covered by : ISC
 
-  ##Contributing
+##Contributing
 
-  Below are my guidelines on how you can contribute to my project
+Below are my guidelines on how you can contribute to my project
 
-  If you would like to contribute to the project please fork the repo and implement your idea, i'll be happy to review your change and even push to the main branch!
+If you would like to contribute to the project please fork the repo and implement your idea, i'll be happy to review your change and even push to the main branch!
 
-  ##Tests
+##Tests
 
-  No test intructions currently
+No test intructions currently
 
-  ###Questions
+###Questions
 
-  Here is my GitHub page: [https://github.com/BradsW90](https://github.com/BradsW90)
+Here is my GitHub page: [https://github.com/BradsW90](https://github.com/BradsW90)
 
-  If you would like to contact me with questions, ideas, or ways you would improve the project please click the link below!
+If you would like to contact me with questions, ideas, or ways you would improve the project please click the link below!
 
-  [bswj90@gmail.com](mailto:bswj90@gmail.com)
-  
-  
+[bswj90@gmail.com](mailto:bswj90@gmail.com)
