@@ -48,7 +48,7 @@ const generateReadme = (disc) => {
 
   If you would like to contact me with questions, ideas, or ways you would improve the project please click the link below!
 
-  [${disc.email}](mailto:${disc.email})
+  My Email: [${disc.email}](mailto:${disc.email})
   
   `;
 };
