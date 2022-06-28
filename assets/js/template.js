@@ -28,6 +28,8 @@ const generateReadme = (disc) => {
 
   ${disc.usage}
 
+  Here is an example video demonstrating how to use the application: 
+
   ## License
 
   This application is covered by : ${disc.license[0]}

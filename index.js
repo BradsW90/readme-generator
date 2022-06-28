@@ -1,5 +1,5 @@
 import inquirer from "inquirer";
-import fs, { read, readFileSync } from "fs";
+import fs from "fs";
 import generateReadme from "./assets/js/template.js";
 
 const newReadme = () => {
@@ -85,21 +85,71 @@ const newReadme = () => {
         type: "input",
         name: "guideline",
         message: "Enter a guideline:",
+        validate: (guideline) => {
+          if (guideline) {
+            return true;
+          } else {
+            console.log("Please enter your contribution guideline!");
+            return false;
+          }
+        },
       },
       {
         type: "input",
         name: "test",
         message: "Enter your Test instructions",
+        validate: (test) => {
+          if (test) {
+            return true;
+          } else {
+            console.log("Please enter how to test your application!");
+            return false;
+          }
+        },
       },
       {
         type: "input",
         name: "username",
         message: "Enter your GitHub username to link to your GitHub account.",
+        validate: (username) => {
+          if (username) {
+            return true;
+          } else {
+            console.log("Please enter your GitHub username!");
+            return false;
+          }
+        },
       },
       {
         type: "input",
         name: "email",
         message: "Enter your E-Mail address to have users contact you.",
+        validate: (email) => {
+          if (email) {
+            return true;
+          } else {
+            console.log("Please enter your email address!");
+            return false;
+          }
+        },
+      },
+      {
+        type: "confirm",
+        name: "comfirmVideo",
+        message: 'Would you like to add a "How to Use" video link?',
+        default: false,
+      },
+      {
+        type: "input",
+        name: "video",
+        message: "Enter your video link",
+        when: ({ confirmVideo }) => {
+          if (confirmVideo) {
+            return true;
+          } else {
+            return false;
+          }
+        },
       },
     ])
     .then((newReadmeData) => {
