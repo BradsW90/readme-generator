@@ -1,12 +1,12 @@
 const generateReadme = (disc) => {
   console.log(disc);
-  return `#${disc.title} ${disc.license[1]}
+  return `# ${disc.title} ${disc.license[1]}
 
-  ##Description
+  ## Description
 
   ${disc.discription}
 
-  ##Table of Contents
+  ## Table of Contents
 
   - [Installation](#Installation)
 
@@ -20,29 +20,29 @@ const generateReadme = (disc) => {
 
   - [Questions](#Questions)
 
-  ##Installation
+  ## Installation
 
   ${disc.installation}
 
-  ##Usage
+  ## Usage
 
   ${disc.usage}
 
-  ##License
+  ## License
 
   This application is covered by : ${disc.license[0]}
 
-  ##Contributing
+  ## Contributing
 
   Below are my guidelines on how you can contribute to my project
 
   ${disc.guideline}
 
-  ##Tests
+  ## Tests
 
   ${disc.test}
 
-  ###Questions
+  ### Questions
 
   Here is my GitHub page: [https://github.com/${disc.username}](https://github.com/${disc.username})
 
