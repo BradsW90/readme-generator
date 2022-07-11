@@ -135,7 +135,7 @@ const newReadme = () => {
       },
       {
         type: "confirm",
-        name: "comfirmVideo",
+        name: "confirmVideo",
         message: 'Would you like to add a "How to Use" video link?',
         default: false,
       },

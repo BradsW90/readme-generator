@@ -48,6 +48,8 @@ const generateReadme = (disc) => {
 
   Here is my GitHub page: [https://github.com/${disc.username}](https://github.com/${disc.username})
 
+  Here is a example video on how to use the application: [Example Video](${disc.video})
+
   If you would like to contact me with questions, ideas, or ways you would improve the project please click the link below!
 
   My Email: [${disc.email}](mailto:${disc.email})

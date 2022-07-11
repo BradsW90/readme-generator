@@ -1,49 +1,55 @@
 # README Generator [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
-## Description
+  ## Description
 
-I created this application to help busy developers quickly make readme's without having to take too much time from their coding duties
+  A command line application that with user input generates a professional readme
 
-## Table of Contents
+  ## Table of Contents
 
-- [Installation](#Installation)
+  - [Installation](#Installation)
 
-- [Usage](#Usage)
+  - [Usage](#Usage)
 
-- [License](#License)
+  - [License](#License)
 
-- [Contributing](#Contributing)
+  - [Contributing](#Contributing)
 
-- [Tests](#Tests)
+  - [Tests](#Tests)
 
-- [Questions](#Questions)
+  - [Questions](#Questions)
 
-## Installation
+  ## Installation
 
-Fork or Clone the repo, then open a CLI and navigate to the application directory and type: npm install inquirer
+  After cloning the repo from terminal in correct directory npm install inquirer
 
-## Usage
+  ## Usage
 
-From a CLI in the application directory type the following command: node index.js. Then follow the onscreen prompts
+  From correct directory type node index.js
 
-## License
+  Here is an example video demonstrating how to use the application: 
 
-This application is covered by : ISC
+  ## License
 
-## Contributing
+  This application is covered by : ISC
 
-Below are my guidelines on how you can contribute to my project
+  ## Contributing
 
-If you would like to contribute to the project please fork the repo and implement your idea, I'll be happy to review your change and even push to the main branch!
+  Below are my guidelines on how you can contribute to my project
 
-## Tests
+  If you would like to contribute to the project please fork the repo and then create a pull request
 
-To test and see the current layout you can add a console.log in the template.js file and console the disc. then comment out the fs command at the bottom of index.js
+  ## Tests
 
-### Questions
+  There are no tests
 
-Here is my GitHub page: [https://github.com/BradsW90](https://github.com/BradsW90)
+  ### Questions
 
-If you would like to contact me with questions, ideas, or ways you would improve the project please click the link below!
+  Here is my GitHub page: [https://github.com/BradsW90](https://github.com/BradsW90)
 
-My Email: [bswj90@gmail.com](mailto:bswj90@gmail.com)
+  Here is a example video on how to use the application: [Example Video]()
+
+  If you would like to contact me with questions, ideas, or ways you would improve the project please click the link below!
+
+  My Email: [bswj90@gmail.com](mailto:bswj90@gmail.com)
+  
+  
