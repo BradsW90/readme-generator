@@ -1,4 +1,9 @@
 const generateReadme = (disc) => {
+  const ifVideo = function(disc) {
+    if (disc.confirmVideo) {
+      return `Here is a example video on how to use the application: [Example Video](${disc.video})`
+    }
+  }
   console.log(disc);
   return `# ${disc.title} ${disc.license[1]}
 
@@ -48,7 +53,7 @@ const generateReadme = (disc) => {
 
   Here is my GitHub page: [https://github.com/${disc.username}](https://github.com/${disc.username})
 
-  Here is a example video on how to use the application: [Example Video](${disc.video})
+  ${ifVideo(disc)}
 
   If you would like to contact me with questions, ideas, or ways you would improve the project please click the link below!
 
