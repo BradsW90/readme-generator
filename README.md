@@ -2,7 +2,7 @@
 
   ## Description
 
-  A command line application that with user input generates a professional readme
+  A command line application that with user input generates a professional readme file
 
   ## Table of Contents
 
@@ -20,11 +20,11 @@
 
   ## Installation
 
-  After cloning the repo from terminal in correct directory npm install inquirer
+  after cloning repo from correct directory in command line terminal type npm install inquirer
 
   ## Usage
 
-  From correct directory type node index.js
+  from correct directory in terminal type node index.js and follow the onscreen prompts
 
   Here is an example video demonstrating how to use the application: 
 
@@ -36,7 +36,7 @@
 
   Below are my guidelines on how you can contribute to my project
 
-  If you would like to contribute to the project please fork the repo and then create a pull request
+  If you would like to contribute to the project please fork the repo and the create a pull request
 
   ## Tests
 
@@ -46,7 +46,7 @@
 
   Here is my GitHub page: [https://github.com/BradsW90](https://github.com/BradsW90)
 
-  Here is a example video on how to use the application: [Example Video]()
+  Here is a example video on how to use the application: [Example Video](undefined)
 
   If you would like to contact me with questions, ideas, or ways you would improve the project please click the link below!
 
